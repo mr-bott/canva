@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  background: black; /* fallback background */
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.canvas-container{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.canvas-container {
+  background-color: white;
+  position: relative;
+  z-index: 1; /* Ensure it's above the animated background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  /* Size + responsiveness */
+  width: 90%;
+  max-width: 640px;
+  height: auto;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
 }
