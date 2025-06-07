@@ -12,7 +12,7 @@ A fun and simple React-based canvas application where users can drag and drop em
 
 ## 🚀 Demo
 
-[Live Demo](#https://one-project-zeta.vercel.app) *(Add your demo link here if hosted)*
+[Live Demo](https://one-project-zeta.vercel.app) *(Add your demo link here if hosted)*
 
 ## 📦 Tech Stack
 
